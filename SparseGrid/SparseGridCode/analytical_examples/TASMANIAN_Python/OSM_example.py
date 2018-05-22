@@ -38,7 +38,10 @@
 
 # necessary import for every use of TASMANIAN
 #
+import sys
+sys.path.append("/Applications/TSG/python")
 import TasmanianSG
+
 import numpy as np
 
 # imports specifically needed by the examples
